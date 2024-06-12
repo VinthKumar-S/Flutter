@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "119296440992",
+    "project_id": "pluggn-56dda",
+    "storage_bucket": "pluggn-56dda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119296440992:android:78d4833589d3178dace7c5",
+        "android_client_info": {
+          "package_name": "com.example.black_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAefr9dPVIMUD5bJSEwg2A9bDu5S-Wkb0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
