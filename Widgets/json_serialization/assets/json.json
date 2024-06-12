@@ -1,0 +1,12 @@
+
+{
+    "name":"Vinth",
+    "age":21,
+    "married":false,
+    "kids":null,
+    "hidden":
+    [
+        "coding","Gardening"
+    ]
+  
+}

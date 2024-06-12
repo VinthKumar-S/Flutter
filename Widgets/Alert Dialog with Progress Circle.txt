@@ -1,0 +1,61 @@
+    
+ /* AlertDialog alert = AlertDialog(
+      content:Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+            TweenAnimationBuilder(
+              tween: Tween(begin: 0.0,end: 1.0), 
+              duration: Duration(seconds: 4), 
+              builder: (context,value,child)
+              {
+                int percentage =(value*100).ceil();
+              return     Container(
+            width: 120.0,
+            height: 150.0,
+           
+            child: Stack(
+              children: [
+                ShaderMask(shaderCallback: (rect){
+                  return SweepGradient(
+                    startAngle: 0.0,
+                    endAngle: TWO_PI,
+                    stops: [value,value],
+                    center: Alignment.center, 
+                    colors: [Colors.green,Colors.grey.withAlpha(55)],
+          
+                  ).createShader(rect);
+                },
+                child: Container(
+                  width: 120.0,
+                  height: 150.0,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.white
+                  ),
+                ),
+                ),
+                Center(
+                  child:Container(
+                    width: 120.0-20,
+                    height: 150.0-20,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      shape: BoxShape.circle
+                    ),
+                    child: Center(child: Text("$percentage",style: TextStyle(fontSize: 20),),
+                    ),
+                  )
+                )
+              ],
+            ),
+          );
+            })
+        ],
+      )
+   
+  );
+
+   showDialog(context: context, builder: (BuildContext context)
+  {
+      return  alert;
+    });*/
